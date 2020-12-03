@@ -22,7 +22,7 @@ int main()
     string word = "" ;
     while((cin >> word)){
         string palindromeString = vecToString(palindrome(stringToVec(word), 0));
-        cout << palindromeString << endl;
+        cout << palindromeString.size() << " " << palindromeString << endl;
     }
 }
 
